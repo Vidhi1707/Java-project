@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Table5rev
+{
+public static void main(String []args)
+{
+int a,i;
+Scanner Sc = new Scanner(System.in);
+a=Sc.nextInt();
+for(i=50; i>=5; i=i-5)
+{
+System.out.println(a*i);
+}
+}
+}

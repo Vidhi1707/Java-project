@@ -1,0 +1,27 @@
+import java.util.Scanner*
+class Mod1{
+public static void main(String[] arg)
+{
+int a,b,c,d,e,f;
+Scanner Sc = new Scanner(System.in);
+System.out.println("Enter any value = ");
+a=ScnextInt();
+b=ScnextInt();
+c=ScnextInt();
+d=ScnextInt();
+e=ScnextInt();
+f=ScnextInt();
+b=a%10;
+System.out.println(+b);
+a=a/10;
+Sysem.out.println(+a);
+c=a%10;
+System.out.println(+c);
+d=a/10;
+System.out.println(+d);
+e=a%10;
+System.out.println(+e);
+f=a/10;
+System.out.println(+f);
+}
+}
